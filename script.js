@@ -62,7 +62,7 @@ const citymap = {
   
   function initMap(currentLocation) {
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 5,
+      zoom: 15,
       center: currentLocation || { lat: 21.7679, lng: 78.8718 },
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
