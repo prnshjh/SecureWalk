@@ -440,7 +440,7 @@
         fillOpacity: 0.35,
         map,
         center: citymap[city].center,
-        radius: Math.sqrt(citymap[city].radi) * 100,
+        radius: Math.sqrt(citymap[city].radi) * 15,
       });
     }
   
